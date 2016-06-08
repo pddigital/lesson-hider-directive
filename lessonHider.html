@@ -1,0 +1,5 @@
+<li ng-show="!show"  ng-class="{'crossed' : check}">{{ lesson }}
+<button ng-click="dayAlert({lesson:lesson, day:lessonDay})">Click me!</button>
+<button ng-click="show=!show">Hide</button>
+<input ng-model="check" type="checkbox" ng-checked="false">
+</li>
